@@ -1,0 +1,194 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial,sans-serif;
+    background-color: #3c4f60;
+
+}
+
+#cabecalho{
+    background-color: #1b252c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 900px;
+    padding: 15px;
+}
+
+.menus{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+
+#cabecalho a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Arial Rounded MT";
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background-color: #ff9100;
+    color: #000000;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+    background-color: #3c4f60;
+    text-align: center;
+}
+
+h3{
+    color: white;
+}
+
+span{
+    color: white;
+}
+
+img{
+    width: 100%;
+}
+
+#principal img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#principal img:hover{
+    transition: transform 0.9s ease;
+    transform: scale(1.1);
+}
+
+#principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    text-align: justify;
+    background-color: #1e2940;
+}
+
+
+.art1,
+.art2,
+.art3{
+    background-color: #3c4f60;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: justify;
+    align-content: center;
+    padding: 30px;
+    margin-top: initial;
+
+}
+
+.texto{
+    width: 50%;
+}
+
+.sobre img{
+    width: 350px;
+    height: 300px;
+
+}
+
+.sobre img:hover{
+    transition: transform 0.5s ease;
+    transform: scale(1.2);
+}
+
+.sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 100px;
+    text-align: justify;
+    background-color: #3c4f60;
+    color: white;
+}
+
+.titulocomenta{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.fundocomentario{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.comentario img{
+   width: 50%;
+}
+
+.comentarios{
+    background-color: #1e2940;
+    padding: 50px;
+}
+
+.comentario{
+    display: flex;
+    flex-direction: column;
+    background-color: #3c4f60;
+    width: 28%;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.comentario:hover {
+    transition: transform 0.9s ease;
+    transform: scale(1.1);
+}
+
+#sociais{
+    background-color: #3c4f60;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icones{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#sociais img{
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+}
+
+#sociais img:hover {
+    transition: transform 0.5s ease;
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+    height: 80px;
+    align-content: center;
+    color: white;
+    background-color: #1b252c;
+}
